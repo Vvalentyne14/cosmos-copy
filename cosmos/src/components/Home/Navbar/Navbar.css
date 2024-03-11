@@ -1,0 +1,26 @@
+/* Navbar.css */
+.navbar {
+    background-color: #000 !important; /* Black background */
+    padding: 10px;
+    position: absolute;
+   
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    z-index: 1000;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  li {
+    margin-right: 5
+    
+  }
+
+  
