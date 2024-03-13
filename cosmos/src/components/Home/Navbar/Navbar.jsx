@@ -5,13 +5,13 @@ import "./Navbar.css"
 
 const Navbar = () => {
   return (
-    <nav>
+    <nav className="navbar">
       <ul>
-        <li>Home</li>
-        <li>Services</li>
-        <li>Works</li>
-        <li>About Us</li>
-        <li>Contact Us</li>
+      <li><a href="#">Home</a></li>
+             <li><a href="#">About Us</a></li>
+             <li><a href="#">Service</a></li>
+             <li><a href="#">Contact Us</a></li>
+             <li><a href="#">Works</a></li>
       </ul>
     </nav>
   );

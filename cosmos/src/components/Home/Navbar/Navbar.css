@@ -1,13 +1,23 @@
 /* Navbar.css */
+@font-face {
+  font-family: CosmosMedium;
+  src: url(../../../fonts/Cosmos-Medium.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 .navbar {
     background-color: #000 !important; /* Black background */
     padding: 10px;
-    position: absolute;
-   
+    position: fixed;
+    border-radius: 50px;
     left: 50%;
+    top: 570px;
     transform: translate(-50%, -50%);
     width: 40%;
+    height: 45px;
     z-index: 1000;
+    align-items: center;
   }
   
   ul {
@@ -18,9 +28,13 @@
     justify-content: space-around;
   }
   
-  li {
-    margin-right: 5
-    
-  }
+  li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 90px;
+    font-family:  'CosmosMedium';
+    font-weight: 100;
+}
 
   

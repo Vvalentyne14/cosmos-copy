@@ -1,0 +1,20 @@
+@font-face {
+    font-family: NeueMachinaUltraBold;
+    src: url(../../../fonts/NeueMachina-Ultrabold.otf) format("opentype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: CosmosMedium;
+    src: url(../../../fonts/Cosmos-Medium.woff) format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.NewSection {
+  padding-top: 10em;
+  font-size: 500px;
+  font-weight: 700;
+  
+}
