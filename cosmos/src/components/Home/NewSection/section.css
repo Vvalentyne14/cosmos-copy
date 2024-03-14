@@ -13,8 +13,18 @@
   }
 
 .NewSection {
-  padding-top: 10em;
-  font-size: 500px;
+  padding-top: 5em;
+  font-size: 23px;
   font-weight: 700;
-  
+  width: 790px;
+  padding-left: 8rem;
+
+}
+
+.NewSection h1 {
+  line-height: 60px;
+}
+.NewSection p {
+  width: 620px;
+  padding-top: 40px;
 }
