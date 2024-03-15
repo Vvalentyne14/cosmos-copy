@@ -13,6 +13,7 @@ h1,h2,h4 {
     color: white;
 }
 
+
 @font-face {
     font-family: NeueMachinaUltraBold;
     src: url(../../../fonts/NeueMachina-Ultrabold.otf) format("opentype");
@@ -26,3 +27,5 @@ h1,h2,h4 {
     font-weight: normal;
     font-style: normal;
   }
+
+  

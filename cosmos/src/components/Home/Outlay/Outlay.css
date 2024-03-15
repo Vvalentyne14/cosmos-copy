@@ -1,0 +1,8 @@
+.bounce {
+    z-index: 999;
+    position: absolute;
+    left: 500px;
+    overflow: hidden;
+    top: 400px;
+    width: 848px;
+}
